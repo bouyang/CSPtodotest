@@ -62,6 +62,7 @@ const requiresAuthentication = (req, res, next) => {
 // Redirect start page
 app.get("/", (req, res) => {
   res.redirect("/lists");
+  // res.send('hello world');
 });
 
 // Render the list of todo lists
